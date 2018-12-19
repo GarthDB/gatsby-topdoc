@@ -1,0 +1,70 @@
+---
+id: steplist-current
+name: Steplist - With Tooltip
+ignoreDNA: true
+markup: |
+  <div class="spectrum-Steplist">
+    <div class="spectrum-Steplist-item u-tooltip-showOnHover is-complete">
+      <div class="spectrum-Steplist-markerContainer">
+        <div class="spectrum-Tooltip spectrum-Tooltip--top">
+          <span class="spectrum-Tooltip-label">Step 1</span>
+          <span class="spectrum-Tooltip-tip"></span>
+        </div>
+        <div class="spectrum-Steplist-marker">
+        </div>
+      </div>
+
+      <span class="spectrum-Steplist-segment">
+      </span>
+    </div>
+    <div class="spectrum-Steplist-item u-tooltip-showOnHover is-complete">
+      <div class="spectrum-Steplist-markerContainer">
+        <div class="spectrum-Tooltip spectrum-Tooltip--top">
+          <span class="spectrum-Tooltip-label">Step 2</span>
+          <span class="spectrum-Tooltip-tip"></span>
+        </div>
+        <div class="spectrum-Steplist-marker">
+        </div>
+      </div>
+
+      <span class="spectrum-Steplist-segment">
+      </span>
+    </div>
+    <div class="spectrum-Steplist-item u-tooltip-showOnHover">
+      <div class="spectrum-Steplist-markerContainer">
+        <div class="spectrum-Tooltip spectrum-Tooltip--top">
+          <span class="spectrum-Tooltip-label">Step 3</span>
+          <span class="spectrum-Tooltip-tip"></span>
+        </div>
+        <div class="spectrum-Steplist-marker">
+        </div>
+      </div>
+
+      <span class="spectrum-Steplist-segment">
+      </span>
+    </div>
+    <div class="spectrum-Steplist-item u-tooltip-showOnHover">
+      <div class="spectrum-Steplist-markerContainer">
+        <div class="spectrum-Tooltip spectrum-Tooltip--top">
+          <span class="spectrum-Tooltip-label">Step 4</span>
+          <span class="spectrum-Tooltip-tip"></span>
+        </div>
+        <div class="spectrum-Steplist-marker">
+        </div>
+      </div>
+
+      <span class="spectrum-Steplist-segment">
+      </span>
+    </div>
+  </div>
+directory: steplist
+filename: steplist-tooltip
+commentStart:
+  line: 15091
+  column: 1
+commentEnd:
+  line: 15155
+  column: 2
+title: Steplist - With Tooltip
+---
+A steplist with tooltips

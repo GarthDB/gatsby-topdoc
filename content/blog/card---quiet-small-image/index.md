@@ -1,0 +1,54 @@
+---
+name: 'Card - Quiet, Small Image'
+status: Beta
+markup: |
+  <div style="width: 112px; height: 136px;">
+    <div class="spectrum-Card spectrum-Card--quiet spectrum-Card--small">
+      <div class="spectrum-Card-preview">
+        <div class="spectrum-Asset">
+          <img class="spectrum-Asset-image" src="img/example-ava.jpg" style="max-width: 75%; max-height: 75%; object-fit: contain;">
+        </div>
+      </div>
+      <div class="spectrum-Card-body">
+        <div class="spectrum-Card-header">
+          <div class="spectrum-Card-title">Name</div>
+        </div>
+        <div class="spectrum-Card-content">
+          <div class="spectrum-Card-subtitle">jpg</div>
+        </div>
+      </div>
+      <div class="spectrum-QuickActions spectrum-Card-actions">
+        <div style="display: inline-block;">
+          <button aria-haspopup="true" class="spectrum-ActionButton spectrum-ActionButton--quiet">
+            <svg class="spectrum-Icon spectrum-Icon--sizeS" focusable="false" aria-hidden="true">
+              <use xlink:href="#spectrum-icon-18-More" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="spectrum-QuickActions spectrum-Card-quickActions">
+        <div class="spectrum-Checkbox">
+          <input type="checkbox" class="spectrum-Checkbox-input" aria-checked="false" title="Select" value="">
+          <span class="spectrum-Checkbox-box">
+            <svg class="spectrum-Icon spectrum-UIIcon-CheckmarkSmall spectrum-Checkbox-checkmark" focusable="false" aria-hidden="true">
+              <use xlink:href="#spectrum-css-icon-CheckmarkSmall" />
+            </svg>
+            <svg class="spectrum-Icon spectrum-UIIcon-DashSmall spectrum-Checkbox-partialCheckmark" focusable="false" aria-hidden="true">
+              <use xlink:href="#spectrum-css-icon-DashSmall" />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+directory: card
+filename: card-quiet-small
+commentStart:
+  line: 21383
+  column: 1
+commentEnd:
+  line: 21431
+  column: 2
+title: 'Card - Quiet, Small Image'
+---
+A spectrum Quiet Card for an image

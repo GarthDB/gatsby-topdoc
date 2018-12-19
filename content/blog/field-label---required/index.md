@@ -1,0 +1,58 @@
+---
+id: fieldlabel
+name: Field Label - Required
+ignoreDNA: true
+markup: >
+  <label for="lifestory3" class="spectrum-FieldLabel">Life Story
+    <svg class="spectrum-Icon spectrum-UIIcon-Asterisk spectrum-FieldLabel-requiredIcon" focusable="false" aria-hidden="true">
+      <use xlink:href="#spectrum-css-icon-Asterisk" />
+    </svg>
+  </label>
+
+  <input id="lifestory3" placeholder="Enter your life story" name="field"
+  value="" class="spectrum-Textfield">
+
+
+  <label for="lifestory4" class="spectrum-FieldLabel">Life Story
+  (Required)</label>
+
+  <input id="lifestory4" placeholder="Enter your life story" name="field"
+  value="" class="spectrum-Textfield">
+
+
+  <br/>
+
+  <br/>
+
+
+  <label for="lifestory5" class="spectrum-FieldLabel
+  spectrum-FieldLabel--left">Life Story
+    <svg class="spectrum-Icon spectrum-UIIcon-Asterisk spectrum-FieldLabel-requiredIcon" focusable="false" aria-hidden="true">
+      <use xlink:href="#spectrum-css-icon-Asterisk" />
+    </svg>
+  </label>
+
+  <textarea id="lifestory5" placeholder="Enter your life story" name="field"
+  value="" class="spectrum-Textfield spectrum-Textfield--multiline"></textarea>
+
+
+
+  <label for="lifestory6" class="spectrum-FieldLabel is-disabled">Life Story
+    <svg class="spectrum-Icon spectrum-UIIcon-Asterisk spectrum-FieldLabel-requiredIcon" focusable="false" aria-hidden="true">
+      <use xlink:href="#spectrum-css-icon-Asterisk" />
+    </svg>
+  </label>
+
+  <input id="lifestory6" placeholder="Enter your life story" name="field"
+  value="" class="spectrum-Textfield" disabled>
+directory: fieldlabel
+filename: fieldlabel-required
+commentStart:
+  line: 16662
+  column: 1
+commentEnd:
+  line: 16700
+  column: 2
+title: Field Label - Required
+---
+Field label for a required field.

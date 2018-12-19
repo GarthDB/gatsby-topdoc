@@ -1,0 +1,26 @@
+---
+name: Bar Loader - Over Background
+markup: >
+  <div style="width: 400px; height: 200px; background-color: rgba(0,0,0,0.4);
+  display: flex; align-items: center; justify-content: center;">
+    <div>
+      <div class="spectrum-BarLoader spectrum-BarLoader--overBackground" value="50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="spectrum-BarLoader-label">Loading</div>
+        <div class="spectrum-BarLoader-percentage">50%</div>
+        <div class="spectrum-BarLoader-track">
+          <div class="spectrum-BarLoader-fill" handle="status" style="width: 50%;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+directory: barloader
+filename: barloader-large-over-background
+commentStart:
+  line: 12043
+  column: 1
+commentEnd:
+  line: 12061
+  column: 2
+title: Bar Loader - Over Background
+---
+No description

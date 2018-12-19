@@ -1,0 +1,34 @@
+---
+name: Rule
+ignoreDNA: true
+status: Verified
+components:
+  rule-large: |
+    <h2 class="spectrum-Heading--subtitle1">Large</h2>
+    <hr class="spectrum-Rule spectrum-Rule--large">
+    <p class="spectrum-Body">Page or Section Titles.</p>
+  rule-medium: >
+    <h3 class="spectrum-Heading--subtitle2">Medium</h3>
+
+    <hr class="spectrum-Rule spectrum-Rule--medium">
+
+    <p class="spectrum-Body">Divide subsections, or divide different groups of
+    elements (between panels, rails, etc.)</p>
+  rule-small: >
+    <h4 class="spectrum-Heading--subtitle3">Small</h4>
+
+    <hr class="spectrum-Rule spectrum-Rule--small">
+
+    <p class="spectrum-Body">Divide like-elements (tables, tool groups, elements
+    within a panel, etc.)</p>
+directory: rule
+filename: rule
+commentStart:
+  line: 20064
+  column: 1
+commentEnd:
+  line: 20085
+  column: 2
+title: Rule
+---
+No description
