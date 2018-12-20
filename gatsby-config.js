@@ -1,9 +1,10 @@
 module.exports = {
+  pathPrefix: `/gatsby-topdoc`,
   siteMetadata: {
     title: 'Spectrum CSS',
     author: 'Garth Braithwaite',
     description: 'The standard CSS implementation of the Spectrum design language.',
-    siteUrl: 'http://opensource.adobe.com/spectrum-css/'
+    siteUrl: 'http://opensource.adobe.com/spectrum-css/',
   },
   plugins: [
     {
