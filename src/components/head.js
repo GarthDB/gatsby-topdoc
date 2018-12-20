@@ -15,39 +15,14 @@ function SEO({ description, lang, meta, keywords, title }) {
             htmlAttributes={{
               lang,
             }}
+            bodyAttributes={{
+              class: 'spectrum spectrum--light',
+            }}
             title={title}
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
             meta={[
               {
                 name: 'description',
-                content: metaDescription,
-              },
-              {
-                property: 'og:title',
-                content: title,
-              },
-              {
-                property: 'og:description',
-                content: metaDescription,
-              },
-              {
-                property: 'og:type',
-                content: 'website',
-              },
-              {
-                name: 'twitter:card',
-                content: 'summary',
-              },
-              {
-                name: 'twitter:creator',
-                content: data.site.siteMetadata.author,
-              },
-              {
-                name: 'twitter:title',
-                content: title,
-              },
-              {
-                name: 'twitter:description',
                 content: metaDescription,
               },
             ]
@@ -60,7 +35,15 @@ function SEO({ description, lang, meta, keywords, title }) {
                   : []
               )
               .concat(meta)}
-          ><link rel="stylesheet" type="text/css" href={withPrefix('spectrum-light.css')} /></Helmet>
+          >
+            <link rel="stylesheet" href={withPrefix('css/docs.css')} />
+            <link rel="stylesheet" href={withPrefix('spectrum-light.css')} />
+            <link
+              rel="stylesheet"
+              href={withPrefix('css/vendor/prism.css')}
+              data-prism
+            />
+          </Helmet>
         )
       }}
     />

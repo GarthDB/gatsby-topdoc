@@ -1,12 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
-    author: 'Kyle Mathews',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsby-starter-blog-demo.netlify.com/',
-    social: {
-      twitter: 'kylemathews'
-    }
+    title: 'Spectrum CSS',
+    author: 'Garth Braithwaite',
+    description: 'The standard CSS implementation of the Spectrum design language.',
+    siteUrl: 'http://opensource.adobe.com/spectrum-css/'
   },
   plugins: [
     {
@@ -67,11 +64,5 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: 'gatsby-plugin-typography',
-      options: {
-        pathToConfigModule: 'src/utils/typography',
-      },
-    },
   ],
 }
